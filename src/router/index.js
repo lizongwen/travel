@@ -15,6 +15,12 @@ const routes = [
     path: '/orderFeedback',
     name: 'orderFeedback',
     component: () => import(/* webpackChunkName: "orderFeedback" */ '../views/order/feedback.vue')
+  },
+  //城市定位
+  {
+    path: '/citylocation',
+    name: 'citylocation',
+    component: () => import(/* webpackChunkName: "cityloc" */ '../views/city/location.vue')
   }
 ]
 
